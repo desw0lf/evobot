@@ -1,6 +1,7 @@
 const i18n = require("../util/i18n");
 const { MessageEmbed } = require("discord.js");
-const { play } = require("../include/play");
+// const { play } = require("../include/play");
+const { play } = require("../include/play-dw");
 const YouTube = require("youtube-sr").default;
 const scdl = require("soundcloud-downloader").default;
 const { SOUNDCLOUD_CLIENT_ID, MAX_PLAYLIST_SIZE, DEFAULT_VOLUME } = require("../util/Util");
